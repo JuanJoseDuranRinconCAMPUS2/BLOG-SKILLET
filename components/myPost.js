@@ -236,7 +236,7 @@ export default{
                         <h3 class="mb-0">${val.disco}</h3>
                     <div class="mb-1 text-muted">${val.fecha}</div>
                     <p class="card-text mb-auto">${val.canciones}</p>
-                    <a href="#" class="stretched-link">Discografia</a>
+                    <a href="#tablita" class="stretched-link">Discografia</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="${val.image}" class="img-fluid responsiveImgC" alt="...">

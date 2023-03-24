@@ -3,6 +3,8 @@ import myAside from "./components/myAside.js";
 import myBanner from "./components/myBanner.js";
 import myPost  from "./components/myPost.js";
 import mySection from "./components/mySection.js";
+import myFooter from "./components/myFooter.js";
+
 
 myHeader.listAlbums();
 myHeader.listTitle();
@@ -17,3 +19,8 @@ mySection.listTitleSection();
 mySection.listPeriods();
 mySection.listTableDisco();
 mySection.listDiscografia();
+mySection.listTitlecuriosities();
+mySection.listFunFacts();
+
+myFooter.listFooter();
+myFooter.listFooterContent();

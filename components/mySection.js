@@ -42,6 +42,7 @@ export default{
     Discografia :[
         {
             disco:"Skillet",
+            href:"https://www.youtube.com/watch?v=RFmNUnwxg-w&list=OLAK5uy_nhR_zSOySTrdSFHvlnrRVAVxn_sdusoOE" ,
             canciones:
             `«I Can»
             «Gasoline»
@@ -58,6 +59,7 @@ export default{
         },
         {
             disco:"Hey You, I Love Your Soul",
+            href:"https://www.youtube.com/watch?v=wzwDbYDdRrE&list=OLAK5uy_n0gE87XtwzlNQmewbpjmcVoEP7iP62uWM" ,
             canciones:
             `
             «Hey You, I Love Your Soul»	
@@ -77,6 +79,7 @@ export default{
         },
         {
             disco:"Invincible",
+            href:"https://www.youtube.com/watch?v=szFEuLteARI&list=OLAK5uy_lbKfBbG0npkX3lwusQsVU6kYK-RMxqqBU" ,
             canciones:
             `
             «Best Kept Secret»
@@ -96,6 +99,7 @@ export default{
         },
         {
             disco:"Alien Youth",
+            href:"https://www.youtube.com/watch?v=Rx1KtNdZHfU&list=OLAK5uy_kM8P7XZgPv3nOADxTo98e0gSD5jKvEqE8" ,
             canciones:
             `
             «Alien Youth»	
@@ -115,6 +119,7 @@ export default{
         },
         {
             disco:"Collide",
+            href:"https://www.youtube.com/watch?v=HPiIuC6GIa0&list=OLAK5uy_l8JIUpW81bEw-k2XP2g_j2cMhDTMZxMiA" ,
             canciones:
             `
             «Forsaken»	
@@ -132,6 +137,7 @@ export default{
         },
         {
             disco:"Comatose",
+            href:"https://www.youtube.com/watch?v=rZjpsT7VgNU&list=OLAK5uy_nXNOxDt1fmIk_b-meDt8B1G_xAw3d8BGk" ,
             canciones:
             `
             «Rebirthing»	
@@ -150,6 +156,7 @@ export default{
         },
         {
             disco:"Awake",
+            href:"https://www.youtube.com/watch?v=uGcsIdGOuZY&list=OLAK5uy_nmyjdNq6hkdyEZRtjNJUDepfGpLaY38l4" ,
             canciones:
             `
             «Hero»	
@@ -169,6 +176,7 @@ export default{
         },
         {
             disco:"Rise",
+            href:"https://www.youtube.com/watch?v=b3jQ0tFqG_0&list=OLAK5uy_n0Pa2IODGqaRNqY108ojVgy40Q2MYFeio" ,
             canciones:
             `
             «Rise»	
@@ -188,6 +196,7 @@ export default{
         },
         {
             disco:"Unleashed",
+            href:"https://www.youtube.com/watch?v=Qzw6A2WC5Qo&list=OLAK5uy_kK9sxTcWdInY6i898PhFlc3xiyVjChyuc" ,
             canciones:
             `
             «"Feel Invincible"»	
@@ -207,6 +216,7 @@ export default{
         },
         {
             disco:"Victorious",
+            href:"https://www.youtube.com/watch?v=DApP8dCZOdU&list=OLAK5uy_mxQzN8xvkN_Lz2WOq_WHLdesrhn9Rb-tw" ,
             canciones:
             `
             «Legendary»	
@@ -226,6 +236,7 @@ export default{
         },
         {
             disco:"Dominion",
+            href:"https://www.youtube.com/watch?v=7IpP6j7je5A&list=OLAK5uy_kGXzpr9CZ187ZtOebzomtMf9M52qrsYVU" ,
             canciones:
             `
             «Destiny»     
@@ -244,6 +255,39 @@ export default{
             añoPublicacion:"14-Ene-2022	",
         },
     ],
+
+    curiosities : {
+            title:"Curiosidades de Skillet",
+            subtitle:"Conozcamos mas sobre esta gran banda",
+            rocklive:"A continuacion veremos algunos datos curiosos acerca de esta banda, los mas importantes y significativos de la misma:",
+            funfacts: [
+                {
+                    data:`El nombre "Skillet" se le ocurrió al vocalista John Cooper cuando estaba cocinando en una sartén (skillet en inglés) y pensó que sería un buen nombre para la banda.`,
+                },
+                {
+                    data:`La guitarrista y tecladista Korey Cooper es la esposa de John Cooper. La pareja se conoció cuando Korey se unió a la banda en 1999 y se casaron en 2006.`,
+                },
+                {
+                    data:`Además de ser músicos talentosos, los miembros de Skillet también son conocidos por su dedicación a la actividad física y el fitness. John y Korey Cooper son conocidos por su amor por el ejercicio y la vida saludable, y han compartido consejos y rutinas de ejercicio en las redes sociales.`,
+                },
+                {
+                    data:`Skillet ha tenido varios cambios en su formación a lo largo de los años, con John Cooper como el único miembro que ha estado en la banda desde su formación en 1996.`,
+                },
+                {
+                    data:`La canción "Monster" de Skillet es una de las más populares de la banda y ha sido utilizada en varios programas de televisión, películas y videojuegos, incluyendo "Transformers: Revenge of the Fallen" y "Saints Row: The Third".`,
+                },
+                {
+                    data:`Skillet ha realizado varias colaboraciones con otros artistas cristianos, incluyendo Lacey Sturm de Flyleaf y Matty Mullins de Memphis May Fire.`,
+                },
+                {
+                    data:`La baterista Jen Ledger también ha lanzado música como solista y ha colaborado con otros artistas, incluyendo una colaboración con el rapero Lecrae en la canción "Messengers".`,
+                },
+                {
+                    data:`Los fans de skillet se denominan a ellos mismos como "panheads"`,
+                },
+            ],
+            paragraph: "Estos son solo algunos datos curiosos sobre Skillet. La banda tiene una larga trayectoria y hay mucho más por descubrir sobre ellos."
+},
     listTitleSection(){
         document.querySelector("#section").insertAdjacentHTML("beforeend", 
         `
@@ -293,6 +337,14 @@ export default{
                 </thead>
                 <tbody id="info">
                 </tbody>
+                <tfoot>
+                    <tr>
+                    <td>Disco</td>
+                    <td>Canciones</td>
+                    <td>Sello Discografico</td>
+                    <td>Fecha de Publicacion</td>
+                    </tr>
+                </tfoot>
                 </table>
 
                 <p>Para conocer mas sobre estos lanzamientos y sus respectivas canciones los invitamos a la pagina oficial de skillet</p>
@@ -305,7 +357,7 @@ export default{
             this.Discografia.forEach((val, id) => {
                 plantilla += `
                 <tr>
-                    <td>${val.disco}</td>
+                    <td><a class="btn btn-outline-primary" target = "_blank" href="${val.href}">${val.disco}</a></td>
                     <td>${val.canciones}</td>
                     <td>${val.selloDiscografico}</td>
                     <td>${val.añoPublicacion}</td>
@@ -330,5 +382,34 @@ export default{
                 `
             )
             },
-            
+            listTitlecuriosities(){
+                document.querySelector("#section").insertAdjacentHTML("beforeend", 
+                `
+                <article class="blog-post">
+                    <h2 class="blog-post-title">${this.curiosities.title}</h2>
+                    <p class="blog-post-meta">${this.curiosities.subtitle}</p>
+                    <p>${this.curiosities.rocklive}</p>
+
+                <ul id="listFunFacts">
+                <div class="p-4">
+                </div>
+                <p>${this.curiosities.paragraph}</p>
+                <nav class="blog-pagination" aria-label="Pagination">
+                <a class="btn btn-outline-primary" href="https://dayofdestiny.skillet.com/" target = "_blank">Pagina Oficial</a>
+                <a class="btn btn-outline-secondary" target = "_blank" href="https://music.youtube.com/watch?v=A_caUYHTHQs&feature=share" tabindex="-1" aria-disabled="true">Nico Borie</a>
+                </nav>
+                </ul>
+                </article>
+                `
+                )
+                },
+        listFunFacts(){
+            let plantilla = "";
+            this.curiosities.funfacts.forEach((val, id) => {
+                plantilla += `
+                <li>${val.data}</li>
+                `;
+            });
+            document.querySelector("#listFunFacts").insertAdjacentHTML("afterbegin", plantilla);
+        },           
     }
