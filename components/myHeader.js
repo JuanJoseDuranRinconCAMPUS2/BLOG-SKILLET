@@ -57,12 +57,16 @@ export default {
         `
         )
     },
-    listAlbums(){
-        let plantilla = "";
-        this.ALBUMS.forEach((val, id) => {
-            plantilla += `<a class="p-2 link-secondary" href="${val.href}">${val.name}</a>`;
+    fragShow(){
+        const ws = new Worker("storage/wsMyHeader.js", {type: "module"});
+        ws.postMessage({module: "listAlbums", data: this.ALBUMS});
+
+        ws.addEventListener("message", (e)=>{
+          let doc = new DOMParser().parseFromString(e.data, "text/html");
+          document.querySelector("#Albums").append(...doc.body.children);
+          ws.terminate();
         });
-        document.querySelector("#Albums").insertAdjacentHTML("beforeend", plantilla);
+           
     }
     }
 

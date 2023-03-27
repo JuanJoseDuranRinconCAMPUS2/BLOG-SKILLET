@@ -6,7 +6,6 @@ import mySection from "./components/mySection.js";
 import myFooter from "./components/myFooter.js";
 
 
-myHeader.listAlbums();
 myHeader.listTitle();
 
 myBanner.showImage();
@@ -21,6 +20,7 @@ mySection.listTableDisco();
 mySection.listDiscografia();
 mySection.listTitlecuriosities();
 mySection.listFunFacts();
+myHeader.fragShow();
 
 myFooter.listFooter();
 myFooter.listFooterContent();

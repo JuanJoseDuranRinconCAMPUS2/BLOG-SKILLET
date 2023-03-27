@@ -411,5 +411,5 @@ export default{
                 `;
             });
             document.querySelector("#listFunFacts").insertAdjacentHTML("afterbegin", plantilla);
-        },           
+        },      
     }
