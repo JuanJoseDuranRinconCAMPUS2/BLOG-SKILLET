@@ -1,4 +1,7 @@
 export let wsMyHeader ={
+    listTitle(p1){ 
+        return `<a class="blog-header-logo text-dark" href="${p1.href}" >${p1.name}</a>`
+    },
     listAlbums(p1){
         let plantilla = "";
         p1.forEach((val, id) => {
@@ -8,7 +11,7 @@ export let wsMyHeader ={
 }
 }
 
-
-self.addEventListener("message"), (e)=>{
+self.addEventListener("message", (e)=>{
     postMessage(wsMyHeader[`${e.data.module}`](e.data.data));
-}
+    
+})
