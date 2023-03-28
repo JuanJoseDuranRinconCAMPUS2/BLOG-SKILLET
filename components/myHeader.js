@@ -1,4 +1,4 @@
-import config from ".../storage/config.js";
+import config from "../storage/config.js";
 
 export default {
     

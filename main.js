@@ -5,9 +5,10 @@ import myPost  from "./components/myPost.js";
 import mySection from "./components/mySection.js";
 import myFooter from "./components/myFooter.js";
 
-
+myHeader.Show();
 myBanner.Show();
-myPost.listDiscografia()
+myBanner.showImage();
+myPost.listDiscografia();
 myAside.showAside();
 mySection.listTitleSection();
 mySection.listPeriods();
@@ -15,7 +16,6 @@ mySection.listTableDisco();
 mySection.listDiscografia();
 mySection.listTitlecuriosities();
 mySection.listFunFacts();
-myHeader.Show();
 myFooter.listFooter();
 myFooter.listFooterContent();
 
