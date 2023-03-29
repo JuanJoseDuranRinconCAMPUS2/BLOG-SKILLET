@@ -2,34 +2,21 @@ import config from "../storage/config.js";
 
 export default{
     
-    showAside(){
+    show(){
         config.dataMyHeader();
         Object.assign(this, JSON.parse(localStorage.getItem("myAside")));
-        const data = this.nav.map((val, id) => {
-            return(
-                (val.link)
-                    ? this.list(val)
-                    : this.cards(val)
-            )
+        const ws = new Worker("storage/wsMyHeader.js", {type: "module"});
+        let id = [];
+        let count= 0;
+        ws.postMessage({module: "showAside", data: this.nav});
+        ws.postMessage({module: "cards", data: this.nav});
+        ws.postMessage({module: "list", data: this.nav});
+        id = ["#nav"]
+        ws.addEventListener("message", (e)=>{
+        
+        let doc = new DOMParser().parseFromString(e.data, "text/html");
+        document.querySelector(id[count]).append(...doc.body.children);
+        (id.length-1==0) ? ws.terminate(): count++;
         });
-        document.querySelector("#nav").insertAdjacentHTML("beforeend", data.join(""))
-    },
-    cards(p1){
-        return(`
-        <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="fst-italic">${p1.title}</h4>
-        <p class="mb-0">${p1.paragranph}</p>
-        </div>`)
-    },
-    list(p1){
-        return(
-            `
-            <div class="p-4">
-            <h4 class="fst-italic">${p1.title}</h4>
-            <ol class="list-unstyled mb-0">
-              ${p1.link.map((val, id) => `<li><a href="${val.link}" target = "_blank">${val.name}</a></li>`).join("")}
-            </ol>
-          </div>`)
-
     }
 };

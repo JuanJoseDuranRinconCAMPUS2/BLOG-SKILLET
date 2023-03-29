@@ -13,12 +13,12 @@ export default{
         ws.postMessage({module: "listTitleSection", data: this.title});
         ws.postMessage({module: "listPeriods", data: this.Periods});
         ws.postMessage({module: "listTableDisco", data: this.title});
-        ws.postMessage({module: "listDiscografiaTable", data: this.Discografia});
+        ws.postMessage({module:"listTableData", data: this.tableDiscografia});
         ws.postMessage({module: "listTitlecuriosities", data: this.curiosities});
         ws.postMessage({module: "listFunFacts", data: this.curiosities});
 
         ws.addEventListener("message", (e)=>{
-        id = ["#section", "#section", "#section", "#info", "#section", "#listFunFacts"]
+        id = ["#section", "#section", "#section", "#section", "#section", "#listFunFacts"]
         let doc = new DOMParser().parseFromString(e.data, "text/html");
         document.querySelector(id[count]).append(...doc.body.children);
         (id.length-1==0) ? ws.terminate(): count++;

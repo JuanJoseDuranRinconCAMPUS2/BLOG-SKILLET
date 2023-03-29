@@ -295,10 +295,10 @@ export default{
             title: {
                 name : "acerca de skillet",
                 history : "Historia De Esta Gran Banda",
-                section2: "Discografia",
+                section2 : "Discografia",
+                paragraph3 : "Skillet ha tenido algunos cambios en su formación a lo largo de los años, pero ha continuado produciendo música de alta calidad y ha ganado el reconocimiento de muchos fans gracias a su estilo de rock potente y sus letras inspiradoras de fe y superación personal, con esto en mente miremos los distintos lanzamientos que ha tenido la banda hasta la fecha.",
                 paragraph1 : "Skillet es una banda estadounidense de rock cristiano formada en 1996 en Memphis, Tennessee. La banda se compone de John Cooper como vocalista principal y bajista, Korey Cooper como guitarrista, tecladista y corista, Jen Ledger como baterista y corista, y Seth Morrison como guitarrista principal.",
                 paragraph2 : "La banda se ha destacado por su mezcla de rock alternativo, metal y elementos electrónicos, así como por las letras de sus canciones que abordan temas como la fe, la lucha interna y la superación personal. Skillet también es conocido por sus emocionantes actuaciones en vivo y ha participado en numerosas giras nacionales e internacionales.",
-                paragraph3 : "Skillet ha tenido algunos cambios en su formación a lo largo de los años, pero ha continuado produciendo música de alta calidad y ha ganado el reconocimiento de muchos fans gracias a su estilo de rock potente y sus letras inspiradoras de fe y superación personal, con esto en mente miremos los distintos lanzamientos que ha tenido la banda hasta la fecha."
             },
             Periods : [
                 {
@@ -331,224 +331,251 @@ export default{
                     El 15 de septiembre del 2021, Skillet lanzó "Surviving the Game", el primer sencillo de su undécimo álbum de estudio, Dominion, el cual fue lanzado el 14 de enero de 2022`
                 },
                 ],
-        
-            Discografia :[
-                {
-                    disco:"Skillet",
-                    href:"https://www.youtube.com/watch?v=RFmNUnwxg-w&list=OLAK5uy_nhR_zSOySTrdSFHvlnrRVAVxn_sdusoOE" ,
-                    canciones:
-                    `«I Can»
-                    «Gasoline»
-                    «Saturn»
-                    «My Beautiful Robe»
-                    «Promise Blender»
-                    «Paint»
-                    «Safe With You»
-                    «You Thought»
-                    «Boundaries»
-                    «Splinter»`,
-                    selloDiscografico:"Ardent / ForeFront",
-                    añoPublicacion:"29-Oct-1996",
-                },
-                {
-                    disco:"Hey You, I Love Your Soul",
-                    href:"https://www.youtube.com/watch?v=wzwDbYDdRrE&list=OLAK5uy_n0gE87XtwzlNQmewbpjmcVoEP7iP62uWM" ,
-                    canciones:
-                    `
-                    «Hey You, I Love Your Soul»	
-                    «Deeper»	
-                    «Locked in a Cage»	
-                    «Your Love (Keeps Me Alive)»	
-                    «More Faithful»	
-                    «Pour»	
-                    «Suspended In You»	
-                    «Take»	
-                    «Coming Down»	
-                    «Whirlwind»	
-                    «Dive Over In»	
-                    «Scarecrow»	`,
-                    selloDiscografico:"Ardent / ForeFront",
-                    añoPublicacion:"21-Abr-1998",
-                },
-                {
-                    disco:"Invincible",
-                    href:"https://www.youtube.com/watch?v=szFEuLteARI&list=OLAK5uy_lbKfBbG0npkX3lwusQsVU6kYK-RMxqqBU" ,
-                    canciones:
-                    `
-                    «Best Kept Secret»
-                    «You Take My Rights Away»
-                    «Invincible»
-                    «Rest»
-                    «Come On To The Future»
-                    «You're Powerful»
-                    «I Trust You»
-                    «Each Other»
-                    «The Fire Breathes»
-                    «Say It Loud»«The One»
-                    «You're In My Brain»
-                    `,
-                    selloDiscografico:"Ardent / ForeFront",
-                    añoPublicacion:"01-Feb-2000",
-                },
-                {
-                    disco:"Alien Youth",
-                    href:"https://www.youtube.com/watch?v=Rx1KtNdZHfU&list=OLAK5uy_kM8P7XZgPv3nOADxTo98e0gSD5jKvEqE8" ,
-                    canciones:
-                    `
-                    «Alien Youth»	
-                    «Vapor»	
-                    «Earth Invasion»	
-                    «You Are My Hope»	
-                    «Eating Me Away»	
-                    «Kill Me, Heal Me»	
-                    «The Thirst Is Taking Over»	
-                    «One Real Thing»	
-                    «Stronger»	
-                    «Rippin' Me Off»	
-                    «Will You Be There (Falling Down)»	
-                    «Come My Way»`,
-                    selloDiscografico:"Ardent",
-                    añoPublicacion:"28-Ago-2001",
-                },
-                {
-                    disco:"Collide",
-                    href:"https://www.youtube.com/watch?v=HPiIuC6GIa0&list=OLAK5uy_l8JIUpW81bEw-k2XP2g_j2cMhDTMZxMiA" ,
-                    canciones:
-                    `
-                    «Forsaken»	
-                    «Savior»	
-                    «Collide»	
-                    «A Little More»	
-                    «My Obsession»	
-                    «Fingernails»	
-                    «Imperfection»	
-                    «Under My Skin»	
-                    «Energy»	
-                    «Cycle Down»`,
-                    selloDiscografico:"Ardent / Lava / INO",
-                    añoPublicacion:"18-Nov-2003",
-                },
-                {
-                    disco:"Comatose",
-                    href:"https://www.youtube.com/watch?v=rZjpsT7VgNU&list=OLAK5uy_nXNOxDt1fmIk_b-meDt8B1G_xAw3d8BGk" ,
-                    canciones:
-                    `
-                    «Rebirthing»	
-                    «The Last Night»	
-                    «Yours to Hold»	
-                    «Better Than Drugs»	
-                    «Comatose»	
-                    «The Older I Get»	
-                    «Those Nights»	
-                    «Falling Inside the Black»	
-                    «Say Goodbye»	
-                    «Whispers in the Dark»	
-                    «Looking for Angels»`,
-                    selloDiscografico:"Ardent / Lava / Atlantic",
-                    añoPublicacion:"03-Oct-2006",
-                },
-                {
-                    disco:"Awake",
-                    href:"https://www.youtube.com/watch?v=uGcsIdGOuZY&list=OLAK5uy_nmyjdNq6hkdyEZRtjNJUDepfGpLaY38l4" ,
-                    canciones:
-                    `
-                    «Hero»	
-                    «Monster»	
-                    «Don't Wake Me»	
-                    «Awake and Alive»	
-                    «One Day Too Late»	
-                    «It's Not Me, It's You»	
-                    «Should've When You Could've»	
-                    «Believe»	
-                    «Forgiven»	
-                    «Sometimes»	
-                    «Never Surrender»	
-                    «Lucy»`,
-                    selloDiscografico:"Ardent / Lava / Atlantic",
-                    añoPublicacion:"25-Ago-2009	",
-                },
-                {
-                    disco:"Rise",
-                    href:"https://www.youtube.com/watch?v=b3jQ0tFqG_0&list=OLAK5uy_n0Pa2IODGqaRNqY108ojVgy40Q2MYFeio" ,
-                    canciones:
-                    `
-                    «Rise»	
-                    «Sick of It»	
-                    «Good to be Alive»	
-                    «Not Gonna Die»	
-                    «Circus for a Psycho»	
-                    «American Noise»	
-                    «Madness In Me»	
-                    «Salvation»	
-                    «Fire and Fury»	
-                    «My Religion»	
-                    «Hard to Find»	
-                    «What I Believe»`,
-                    selloDiscografico:"Atlantic",
-                    añoPublicacion:"25-Jun-2013	",
-                },
-                {
-                    disco:"Unleashed",
-                    href:"https://www.youtube.com/watch?v=Qzw6A2WC5Qo&list=OLAK5uy_kK9sxTcWdInY6i898PhFlc3xiyVjChyuc" ,
-                    canciones:
-                    `
-                    «"Feel Invincible"»	
-                    «"Back From the Dead"»	
-                    «"Stars"»	
-                    «"I Want to Live"»	
-                    «"Undefeated"»	
-                    «"Famous"»	
-                    «"Lions"»	
-                    «"Out of Hell"»	
-                    «"Burn It Down"»	
-                    «"Watching for Comets»	
-                    «"Saviors of the World"»	
-                    «"The Resistance"»`,
-                    selloDiscografico:"Atlantic / Word",
-                    añoPublicacion:"05-Ago-2016	",
-                },
-                {
-                    disco:"Victorious",
-                    href:"https://www.youtube.com/watch?v=DApP8dCZOdU&list=OLAK5uy_mxQzN8xvkN_Lz2WOq_WHLdesrhn9Rb-tw" ,
-                    canciones:
-                    `
-                    «Legendary»	
-                    «You Ain't Ready»	
-                    «Victorious»	
-                    «This Is the Kingdom»	
-                    «Save Me»	
-                    «Rise Up»	
-                    «Terrify the Dark»	
-                    «Never Going Back»	
-                    «Reach»	
-                    «Anchor»	
-                    «Finish Line»	
-                    «Back to Life»`,
-                    selloDiscografico:"Atlantic",
-                    añoPublicacion:"02-Ago-2019	",
-                },
-                {
-                    disco:"Dominion",
-                    href:"https://www.youtube.com/watch?v=7IpP6j7je5A&list=OLAK5uy_kGXzpr9CZ187ZtOebzomtMf9M52qrsYVU" ,
-                    canciones:
-                    `
-                    «Destiny»     
-                    «Valley of Death»     
-                    «Dominion»   
-                    «Ignite»    
-                    «White Horse»   
-                    «Forever or the End»    
-                    «Standing in the Storm»     
-                    «Refuge»    
-                    «Shout Your Freedom»    
-                    «Destroyer»    
-                    «Surviving the Game»    
-                    «Beyond Incredible»`,
-                    selloDiscografico:"Atlantic",
-                    añoPublicacion:"14-Ene-2022	",
-                },
-            ],
-        
+            tableDiscografia:[{
+               theader:[
+                    {name: "Disco"},
+                    {name: "Canciones"},
+                    {name: "Sello Discografico"},
+                    {name: "Fecha de Publicacion"},
+                ],
+                skillet:[
+                    {name:"Skillet"},
+                    {name:
+                        `«I Can»
+                        «Gasoline»
+                        «Saturn»
+                        «My Beautiful Robe»
+                        «Promise Blender»
+                        «Paint»
+                        «Safe With You»
+                        «You Thought»
+                        «Boundaries»
+                        «Splinter»`},
+                        {name:"Ardent / ForeFront"},
+                        {name:"29-Oct-1996"},
+                ],
+                HeyYou:[
+                    {name:"Hey You, I Love Your Soul"},
+                    {name:
+                        `
+                        «Hey You, I Love Your Soul»	
+                        «Deeper»	
+                        «Locked in a Cage»	
+                        «Your Love (Keeps Me Alive)»	
+                        «More Faithful»	
+                        «Pour»	
+                        «Suspended In You»	
+                        «Take»	
+                        «Coming Down»	
+                        «Whirlwind»	
+                        «Dive Over In»	
+                        «Scarecrow»	`},
+                    {name:"Ardent / ForeFront"},
+                    {name:"21-Abr-1998"},
+                ],
+                invincible:[
+                    {
+                        name:"Invincible",
+                        href:"https://www.youtube.com/watch?v=szFEuLteARI&list=OLAK5uy_lbKfBbG0npkX3lwusQsVU6kYK-RMxqqBU" ,
+                        name:
+                        `
+                        «Best Kept Secret»
+                        «You Take My Rights Away»
+                        «Invincible»
+                        «Rest»
+                        «Come On To The Future»
+                        «You're Powerful»
+                        «I Trust You»
+                        «Each Other»
+                        «The Fire Breathes»
+                        «Say It Loud»«The One»
+                        «You're In My Brain»
+                        `,
+                        name:"Ardent / ForeFront",
+                        name:"01-Feb-2000",
+                    },
+                ],
+                AlienYouth:[
+                    {
+                        name:"Alien Youth",
+                        href:"https://www.youtube.com/watch?v=Rx1KtNdZHfU&list=OLAK5uy_kM8P7XZgPv3nOADxTo98e0gSD5jKvEqE8" ,
+                        name:
+                        `
+                        «Alien Youth»	
+                        «Vapor»	
+                        «Earth Invasion»	
+                        «You Are My Hope»	
+                        «Eating Me Away»	
+                        «Kill Me, Heal Me»	
+                        «The Thirst Is Taking Over»	
+                        «One Real Thing»	
+                        «Stronger»	
+                        «Rippin' Me Off»	
+                        «Will You Be There (Falling Down)»	
+                        «Come My Way»`,
+                        name:"Ardent",
+                        name:"28-Ago-2001",
+                    },
+                ],
+                collide:[
+                    {
+                        name:"Collide",
+                        name:
+                        `
+                        «Forsaken»	
+                        «Savior»	
+                        «Collide»	
+                        «A Little More»	
+                        «My Obsession»	
+                        «Fingernails»	
+                        «Imperfection»	
+                        «Under My Skin»	
+                        «Energy»	
+                        «Cycle Down»`,
+                        name:"Ardent / Lava / INO",
+                        name:"18-Nov-2003",
+                    },
+                ],
+
+                comatoes:[
+                    {
+                        name:"Comatose",
+                        href:"https://www.youtube.com/watch?v=rZjpsT7VgNU&list=OLAK5uy_nXNOxDt1fmIk_b-meDt8B1G_xAw3d8BGk" ,
+                        name:
+                        `
+                        «Rebirthing»	
+                        «The Last Night»	
+                        «Yours to Hold»	
+                        «Better Than Drugs»	
+                        «Comatose»	
+                        «The Older I Get»	
+                        «Those Nights»	
+                        «Falling Inside the Black»	
+                        «Say Goodbye»	
+                        «Whispers in the Dark»	
+                        «Looking for Angels»`,
+                        name:"Ardent / Lava / Atlantic",
+                        name:"03-Oct-2006",
+                    },
+                ],
+                awake:[
+                    {
+                        name:"Awake",
+                        href:"https://www.youtube.com/watch?v=uGcsIdGOuZY&list=OLAK5uy_nmyjdNq6hkdyEZRtjNJUDepfGpLaY38l4" ,
+                        name:
+                        `
+                        «Hero»	
+                        «Monster»	
+                        «Don't Wake Me»	
+                        «Awake and Alive»	
+                        «One Day Too Late»	
+                        «It's Not Me, It's You»	
+                        «Should've When You Could've»	
+                        «Believe»	
+                        «Forgiven»	
+                        «Sometimes»	
+                        «Never Surrender»	
+                        «Lucy»`,
+                        name:"Ardent / Lava / Atlantic",
+                        name:"25-Ago-2009	",
+                    }
+                ],
+                rise:[
+                    {
+                        name:"Rise",
+                        href:"https://www.youtube.com/watch?v=b3jQ0tFqG_0&list=OLAK5uy_n0Pa2IODGqaRNqY108ojVgy40Q2MYFeio" ,
+                        name:
+                        `
+                        «Rise»	
+                        «Sick of It»	
+                        «Good to be Alive»	
+                        «Not Gonna Die»	
+                        «Circus for a Psycho»	
+                        «American Noise»	
+                        «Madness In Me»	
+                        «Salvation»	
+                        «Fire and Fury»	
+                        «My Religion»	
+                        «Hard to Find»	
+                        «What I Believe»`,
+                        selloDiscografico:"Atlantic",
+                        añoPublicacion:"25-Jun-2013	",
+                    }
+                ],
+                unleashed:[
+                    {
+                        name:"Unleashed",
+                        href:"https://www.youtube.com/watch?v=Qzw6A2WC5Qo&list=OLAK5uy_kK9sxTcWdInY6i898PhFlc3xiyVjChyuc" ,
+                        name:
+                        `
+                        «"Feel Invincible"»	
+                        «"Back From the Dead"»	
+                        «"Stars"»	
+                        «"I Want to Live"»	
+                        «"Undefeated"»	
+                        «"Famous"»	
+                        «"Lions"»	
+                        «"Out of Hell"»	
+                        «"Burn It Down"»	
+                        «"Watching for Comets»	
+                        «"Saviors of the World"»	
+                        «"The Resistance"»`,
+                        name:"Atlantic / Word",
+                        name:"05-Ago-2016	",
+                    }
+                ],
+                victorious:[
+                    {
+                        name:"Victorious",
+                        href:"https://www.youtube.com/watch?v=DApP8dCZOdU&list=OLAK5uy_mxQzN8xvkN_Lz2WOq_WHLdesrhn9Rb-tw" ,
+                        name:
+                        `
+                        «Legendary»	
+                        «You Ain't Ready»	
+                        «Victorious»	
+                        «This Is the Kingdom»	
+                        «Save Me»	
+                        «Rise Up»	
+                        «Terrify the Dark»	
+                        «Never Going Back»	
+                        «Reach»	
+                        «Anchor»	
+                        «Finish Line»	
+                        «Back to Life»`,
+                        name:"Atlantic",
+                        name:"02-Ago-2019	",
+                    }
+                ],
+                dominion: [
+                    {
+                        name:"Dominion",
+                        href:"https://www.youtube.com/watch?v=7IpP6j7je5A&list=OLAK5uy_kGXzpr9CZ187ZtOebzomtMf9M52qrsYVU" ,
+                        name:
+                        `
+                        «Destiny»     
+                        «Valley of Death»     
+                        «Dominion»   
+                        «Ignite»    
+                        «White Horse»   
+                        «Forever or the End»    
+                        «Standing in the Storm»     
+                        «Refuge»    
+                        «Shout Your Freedom»    
+                        «Destroyer»    
+                        «Surviving the Game»    
+                        «Beyond Incredible»`,
+                        name:"Atlantic",
+                        name:"14-Ene-2022	",
+                    }
+                ],
+                tflooter:[
+                    {name: "Disco"},
+                    {name: "Canciones"},
+                    {name: "Sello Discografico"},
+                    {name: "Fecha de Publicacion"},
+                ],
+            }],
+           
             curiosities : {
                     title:"Curiosidades de Skillet",
                     subtitle:"Conozcamos mas sobre esta gran banda",

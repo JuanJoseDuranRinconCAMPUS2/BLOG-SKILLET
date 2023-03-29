@@ -74,53 +74,47 @@ export let wsMyHeader ={
         listTableDisco(p1){
       
             return`
-            <article class="blog-post">
+            <article class="blog-post" id="tablaData">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1W0YS64vF9qgMVLuN76aqg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <h2 class="blog-post-title">${p1.section2}</h2>
                 <p class="blog-post-meta">Un vistazo a las producciones de la banda</p>
 
                 <p>${p1.paragraph3}</p>
                 
-                <table class="table" id="tablita">
-                <thead>
-                <tr>
-                    <th>Disco</th>
-                    <th>Canciones</th>
-                    <th>Sello Discografico</th>
-                    <th>Fecha de Publicacion</th>
-                </tr>
-                </thead>
-                <tbody id="info">
-                </tbody>
-                <tfoot>
-                    <tr>
-                    <td>Disco</td>
-                    <td>Canciones</td>
-                    <td>Sello Discografico</td>
-                    <td>Fecha de Publicacion</td>
-                    </tr>
-                </tfoot>
-                </table>
+                
 
                 <p>Para conocer mas sobre estos lanzamientos y sus respectivas canciones los invitamos a la pagina oficial de skillet</p>
             </article>
             `
             },
-        listDiscografiaTable(p1){
-            let plantilla3 = "";
-            p1.forEach((val, id) => {
-                plantilla3 += `
+        
+        listTableData(p1){
+            let plantilla = p1.map((val, id)=>{
+                return `<table class="table" id="tablita">
+                <thead>
                 <tr>
-                    <td> <a class="btn btn-outline-primary" target = "_blank" href="${val.href}">${val.disco}</a> </td>
-                    <td> ${val.canciones} </td>
-                    <td> ${val.selloDiscografico} </td>
-                    <td> ${val.añoPublicacion} </td>
+                    ${val.theader.map((val, id)=>{return `<th>${val.name}</th>`}).join("")}
                 </tr>
-                `
-                })
-                return plantilla3;
-            },
-
-            listTitlecuriosities(p1){
+                </thead>
+                <tbody>
+                    <tr>
+                    ${val.skillet.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.HeyYou.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    ${val.tflooter.map((val3, id3)=>{return `<th>${val3.name}</th>`}).join("")}
+                    </tr>
+                </tfoot>
+                </table>`
+            })
+            return plantilla.join("")
+        },
+     
+        listTitlecuriosities(p1){
      
                 return`
                 <article class="blog-post">
@@ -150,7 +144,34 @@ export let wsMyHeader ={
                 });
             },   
 
-            
+            showAside(nav){
+                
+                const data = nav.map((val, id) => {
+                    return(
+                        (val.link)
+                            ? this.list(val)
+                            : this.cards(val)
+                    )
+                });
+                return data;
+            },
+            cards(p1){
+                return`
+                <div class="p-4 mb-3 bg-light rounded">
+                <h4 class="fst-italic">${p1.title}</h4>
+                <p class="mb-0">${p1.paragranph}</p>
+                </div>`
+            },
+            list(p1){
+                return`
+                    <div class="p-4">
+                    <h4 class="fst-italic">${p1.title}</h4>
+                    <ol class="list-unstyled mb-0">
+                      ${p1.link.map((val, id) => `<li><a href="${val.link}" target = "_blank">${val.name}</a></li>`).join("")}
+                    </ol>
+                  </div>`
+        
+            },
             listFooter(p1){
                 
                 return`

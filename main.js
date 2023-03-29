@@ -9,7 +9,7 @@ myHeader.Show();
 myBanner.Show();
 myBanner.showImage();
 myPost.Show();
-myAside.showAside();
+myAside.show();
 mySection.Show();
 myFooter.Show();
 
