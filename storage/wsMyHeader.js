@@ -103,6 +103,33 @@ export let wsMyHeader ={
                     <tr>
                     ${val.HeyYou.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
+                    <tr>
+                    ${val.invincible.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.AlienYouth.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.collide.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.comatoes.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.awake.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.rise.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.unleashed.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.invincible.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
+                    <tr>
+                    ${val.dominion.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
+                    </tr>
                 </tbody>
                 <tfoot>
                     <tr>
@@ -123,6 +150,8 @@ export let wsMyHeader ={
                     <p>${p1.rocklive}</p>
 
                 <ul id="listFunFacts">
+                
+                </ul>
                 <div class="p-4">
                 </div>
                 <p>${p1.paragraph}</p>
@@ -130,7 +159,6 @@ export let wsMyHeader ={
                 <a class="btn btn-outline-primary" href="https://dayofdestiny.skillet.com/" target = "_blank">Pagina Oficial</a>
                 <a class="btn btn-outline-secondary" target = "_blank" href="https://music.youtube.com/watch?v=A_caUYHTHQs&feature=share" tabindex="-1" aria-disabled="true">Nico Borie</a>
                 </nav>
-                </ul>
                 </article>
                 `
 
@@ -142,6 +170,7 @@ export let wsMyHeader ={
                     <li>${val.data}</li>
                     `;
                 });
+                return plantilla4
             },   
 
             showAside(nav){

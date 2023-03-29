@@ -374,10 +374,8 @@ export default{
                     {name:"21-Abr-1998"},
                 ],
                 invincible:[
-                    {
-                        name:"Invincible",
-                        href:"https://www.youtube.com/watch?v=szFEuLteARI&list=OLAK5uy_lbKfBbG0npkX3lwusQsVU6kYK-RMxqqBU" ,
-                        name:
+                    {name:"Invincible"},
+                        {name:
                         `
                         «Best Kept Secret»
                         «You Take My Rights Away»
@@ -390,16 +388,13 @@ export default{
                         «The Fire Breathes»
                         «Say It Loud»«The One»
                         «You're In My Brain»
-                        `,
-                        name:"Ardent / ForeFront",
-                        name:"01-Feb-2000",
-                    },
+                        `},
+                        {name:"Ardent / ForeFront"},
+                        {name:"01-Feb-2000",},
                 ],
                 AlienYouth:[
-                    {
-                        name:"Alien Youth",
-                        href:"https://www.youtube.com/watch?v=Rx1KtNdZHfU&list=OLAK5uy_kM8P7XZgPv3nOADxTo98e0gSD5jKvEqE8" ,
-                        name:
+                    {name:"Alien Youth"},
+                    {name:
                         `
                         «Alien Youth»	
                         «Vapor»	
@@ -412,15 +407,13 @@ export default{
                         «Stronger»	
                         «Rippin' Me Off»	
                         «Will You Be There (Falling Down)»	
-                        «Come My Way»`,
-                        name:"Ardent",
-                        name:"28-Ago-2001",
-                    },
+                        «Come My Way»`},
+                    {name:"Ardent"},
+                    {name:"28-Ago-2001"},
                 ],
                 collide:[
-                    {
-                        name:"Collide",
-                        name:
+                    {name:"Collide"},
+                    {name:
                         `
                         «Forsaken»	
                         «Savior»	
@@ -431,17 +424,14 @@ export default{
                         «Imperfection»	
                         «Under My Skin»	
                         «Energy»	
-                        «Cycle Down»`,
-                        name:"Ardent / Lava / INO",
-                        name:"18-Nov-2003",
-                    },
+                        «Cycle Down»`},
+                    {name:"Ardent / Lava / INO"},
+                    {name:"18-Nov-2003"},
                 ],
 
                 comatoes:[
-                    {
-                        name:"Comatose",
-                        href:"https://www.youtube.com/watch?v=rZjpsT7VgNU&list=OLAK5uy_nXNOxDt1fmIk_b-meDt8B1G_xAw3d8BGk" ,
-                        name:
+                    {name:"Comatose"}, 
+                    {name:
                         `
                         «Rebirthing»	
                         «The Last Night»	
@@ -453,16 +443,13 @@ export default{
                         «Falling Inside the Black»	
                         «Say Goodbye»	
                         «Whispers in the Dark»	
-                        «Looking for Angels»`,
-                        name:"Ardent / Lava / Atlantic",
-                        name:"03-Oct-2006",
-                    },
+                        «Looking for Angels»`},
+                        {name:"Ardent / Lava / Atlantic"},
+                        {name:"03-Oct-2006"},
                 ],
                 awake:[
-                    {
-                        name:"Awake",
-                        href:"https://www.youtube.com/watch?v=uGcsIdGOuZY&list=OLAK5uy_nmyjdNq6hkdyEZRtjNJUDepfGpLaY38l4" ,
-                        name:
+                    {name:"Awake"},
+                    {name:
                         `
                         «Hero»	
                         «Monster»	
@@ -475,16 +462,13 @@ export default{
                         «Forgiven»	
                         «Sometimes»	
                         «Never Surrender»	
-                        «Lucy»`,
-                        name:"Ardent / Lava / Atlantic",
-                        name:"25-Ago-2009	",
-                    }
+                        «Lucy»`},
+                        {name:"Ardent / Lava / Atlantic"},
+                        {name:"25-Ago-2009	"}
                 ],
                 rise:[
-                    {
-                        name:"Rise",
-                        href:"https://www.youtube.com/watch?v=b3jQ0tFqG_0&list=OLAK5uy_n0Pa2IODGqaRNqY108ojVgy40Q2MYFeio" ,
-                        name:
+                    {name:"Rise"},
+                    {name:
                         `
                         «Rise»	
                         «Sick of It»	
@@ -497,16 +481,13 @@ export default{
                         «Fire and Fury»	
                         «My Religion»	
                         «Hard to Find»	
-                        «What I Believe»`,
-                        selloDiscografico:"Atlantic",
-                        añoPublicacion:"25-Jun-2013	",
-                    }
+                        «What I Believe»`},
+                    {name:"Atlantic"},
+                    {name:"25-Jun-2013	"}
                 ],
                 unleashed:[
-                    {
-                        name:"Unleashed",
-                        href:"https://www.youtube.com/watch?v=Qzw6A2WC5Qo&list=OLAK5uy_kK9sxTcWdInY6i898PhFlc3xiyVjChyuc" ,
-                        name:
+                    {name:"Unleashed"},
+                    {name:
                         `
                         «"Feel Invincible"»	
                         «"Back From the Dead"»	
@@ -519,16 +500,14 @@ export default{
                         «"Burn It Down"»	
                         «"Watching for Comets»	
                         «"Saviors of the World"»	
-                        «"The Resistance"»`,
-                        name:"Atlantic / Word",
-                        name:"05-Ago-2016	",
-                    }
+                        «"The Resistance"»`},
+                    {name:"Atlantic / Word"},
+                    {name:"05-Ago-2016"},
+                    
                 ],
                 victorious:[
-                    {
-                        name:"Victorious",
-                        href:"https://www.youtube.com/watch?v=DApP8dCZOdU&list=OLAK5uy_mxQzN8xvkN_Lz2WOq_WHLdesrhn9Rb-tw" ,
-                        name:
+                    {name:"Victorious"},
+                    {name:
                         `
                         «Legendary»	
                         «You Ain't Ready»	
@@ -541,16 +520,13 @@ export default{
                         «Reach»	
                         «Anchor»	
                         «Finish Line»	
-                        «Back to Life»`,
-                        name:"Atlantic",
-                        name:"02-Ago-2019	",
-                    }
+                        «Back to Life»`},
+                        {name:"Atlantic"},
+                        {name:"02-Ago-2019"}
                 ],
                 dominion: [
-                    {
-                        name:"Dominion",
-                        href:"https://www.youtube.com/watch?v=7IpP6j7je5A&list=OLAK5uy_kGXzpr9CZ187ZtOebzomtMf9M52qrsYVU" ,
-                        name:
+                    {name:"Dominion"},
+                    {name:
                         `
                         «Destiny»     
                         «Valley of Death»     
@@ -563,10 +539,9 @@ export default{
                         «Shout Your Freedom»    
                         «Destroyer»    
                         «Surviving the Game»    
-                        «Beyond Incredible»`,
-                        name:"Atlantic",
-                        name:"14-Ene-2022	",
-                    }
+                        «Beyond Incredible»`},
+                    {name:"Atlantic"},
+                    {name:"14-Ene-2022"}
                 ],
                 tflooter:[
                     {name: "Disco"},
