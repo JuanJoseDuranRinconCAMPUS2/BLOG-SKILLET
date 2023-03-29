@@ -4,7 +4,7 @@ export default {
     
         Show(){
             config.dataMyHeader();
-            Object.assign(this, JSON.parse(localStorage.getItem("myHeader")))
+            Object.assign(this, JSON.parse(localStorage.getItem("myHeader")));
             const ws = new Worker("storage/wsMyHeader.js", {type: "module"});
             let id = [];
             let count= 0;

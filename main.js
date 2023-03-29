@@ -8,14 +8,8 @@ import myFooter from "./components/myFooter.js";
 myHeader.Show();
 myBanner.Show();
 myBanner.showImage();
-myPost.listDiscografia();
+myPost.Show();
 myAside.showAside();
-mySection.listTitleSection();
-mySection.listPeriods();
-mySection.listTableDisco();
-mySection.listDiscografia();
-mySection.listTitlecuriosities();
-mySection.listFunFacts();
-myFooter.listFooter();
-myFooter.listFooterContent();
+mySection.Show();
+myFooter.Show();
 

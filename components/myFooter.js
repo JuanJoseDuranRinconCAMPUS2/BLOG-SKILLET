@@ -1,39 +1,24 @@
+import config from "../storage/config.js";
+
 export default{
-    footer:[
-        {
-            dedicatoria: `Pagina hecha en honor a "Skillet" -Gracias por ser un gran apoyo personal por medio de vuestras canciones, de parte de todos los panheads gracias skillet por mantener vivo el rock`,
-        },
-        {
-            dedicatoria: "@theFredCreations. Derechos reservados. Informacion brindadas por @wikipedia y @skillet. todo el credito del contenido audiovisual y visual a su respectivo creador @Skillet",
-        },
-        {
-            dedicatoria: "24-marzo-2023",
-        },
-        {
-            dedicatoria: "¡El rock sigue en nuestras venas!",
-        },
-        {
-            dedicatoria: `Our future's here and now
-                Here comes the countdown
-                -Rise`
-        }
-    ],
-    listFooter(){
-        document.querySelector("#footer").insertAdjacentHTML("beforeend", 
-        `
-        <p>
-            <a href="#">Vuelve al inicio</a>
-        </p>
-        `
-         )
-        },
-    listFooterContent(){
-        let plantilla = "";
-        this.footer.forEach((val, id) => {
-            plantilla += `
-            <p>${val.dedicatoria}</p>
-            `;
+   
+
+    Show(){
+        config.dataMyHeader();
+        Object.assign(this, JSON.parse(localStorage.getItem("myFooter")));
+        const ws = new Worker("storage/wsMyHeader.js", {type: "module"});
+        let id = [];
+        let count= 0;
+        ws.postMessage({module: "listFooterContent", data: this.footer});
+        ws.postMessage({module: "listFooter", data: this.footer})
+        id = ["#footer", "#footer"]
+        ws.addEventListener("message", (e)=>{
+            
+        let doc = new DOMParser().parseFromString(e.data, "text/html");
+
+        document.querySelector(id[count]).append(...doc.body.children);
+        (id.length-1==0) ? ws.terminate(): count++;
         });
-        document.querySelector("#footer").insertAdjacentHTML("afterbegin", plantilla);
-        },  
+            
+        },
 }
