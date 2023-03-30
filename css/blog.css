@@ -1,4 +1,6 @@
 /* stylelint-disable selector-list-comma-newline-after */
+
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -118,6 +120,22 @@ h1, h2, h3, h4, h5, h6 {
 .imgStyle{
   background-size: cover;
   background-position: center;
+  opacity: 0.8;
+}
+
+.imgStyle h1{
+  color: #F0EB8D;
+  text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; 
+font-size: 30px; 
+color: #fff; 
+text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.imgStyle p{
+  color: #F0EB8D;
+
 }
 
 .responsiveImgC{
@@ -139,11 +157,135 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 *::-webkit-scrollbar-track {
-  background: #deddda;
+  background: #241f31;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #613583;
   border-radius: 0px;
   border: 5px dashed #241f31;
+}
+
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #2D2727;
+}
+
+#title{
+	    text-align: center;
+      line-height: 5rem;
+	    color: #fcedd8;
+	   	font-family: 'Niconne', cursive; 
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #efa032, 
+                  15px 15px 0px #46b59b, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #052939, 
+                  30px 30px 0px #c11a2b, 
+                  35px 35px 0px #c11a2b, 
+                  40px 40px 0px #c11a2b, 
+                  45px 45px 0px #c11a2b;
+}
+
+#skilletTitle{
+  color: #F0EB8D;
+  font-size: 200%;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+
+#btnIngreso{
+  color: #F0EB8D;
+  font-size: 150%;
+  border-color: #F0EB8D;
+  font-weight: bolder;
+}
+
+#albumsList{
+  font-weight: bolder;
+  color: #8F43EE;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+#cards, #section, #cardAside, #footer{
+  background-color:#241f31;
+}
+
+#cards h3{
+  color:#8F43EE;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#cards p{
+  color: #F0EB8D;
+}
+
+#section h3, h2{
+  font-size: 160%;
+  color:#8F43EE;
+}
+
+#section h6{
+  color: #F0EB8D;
+}
+
+#section p{
+  color: #F6E1C3;
+}
+
+#tablita tbody th{
+  color: #F6E1C3;
+}
+
+#tablita thead{
+  color:#8F43EE;
+  background-color: #2D2727;
+}
+
+#tablita tbody th{
+  color: #F6E1C3;
+}
+
+#tablita tfoot{
+  color:#8F43EE;
+  background-color: #2D2727;
+}
+
+#monochrome{
+  background-color: #2D2727;
+}
+
+#listFunFacts{
+  color: #F0EB8D;
+}
+
+#cardAside h3, #listAside h3{
+  color:#8F43EE;
+}
+
+#cardAside p{
+  color:#F6E1C3;
+}
+
+#listAside ol li a{
+  color:#F6E1C3;
+  text-decoration:underline;
+
+}
+
+#footer p{
+  color:#F6E1C3;
+}
+
+#footer p a{
+  color:#F0EB8D;
+  text-decoration:underline;
+
 }

@@ -1,11 +1,11 @@
 export let wsMyHeader ={
     listTitle(p1){ 
-        return `<a class="blog-header-logo text-dark" href="${p1.href}" >${p1.name}</a>`
+        return `<a class="blog-header-logo" target = "_blank" id="skilletTitle" href="${p1.href}" >${p1.name}</a>`
     },
     listAlbums(p1){
         let plantilla = "";
         p1.forEach((val, id) => {
-        plantilla += `<a class="p-2 link-secondary" href="${val.href}">${val.name}</a>`;
+        plantilla += `<a class="p-2 link-secondary" target = "_blank" id="albumsList" href="${val.href}">${val.name}</a>`;
     });
     return plantilla;
     },
@@ -14,7 +14,7 @@ export let wsMyHeader ={
     },
     listBanner(p1){
      
-         return `<h1 class="display-4 fst-italic" >${p1.titleBanner}</h1>
+         return `<h1 class="display-4 fst-italic">${p1.titleBanner}</h1>
         <p class="lead my-3">${p1.pBanner}</p>
         <p class="lead mb-0"><a href="https://dayofdestiny.skillet.com/" target = "_blank" class="text-white fw-bold">Continuar...</a></p>`
     
@@ -64,7 +64,8 @@ export let wsMyHeader ={
         p1.forEach((val, id) => {
             plantilla2 += `
             <h2 class="blog-post-title">${val.title}</h2>
-            <p class="blog-post-meta">${val.subtitle}</p>
+            <h6 class="blog-post-meta">${val.subtitle}</h6>
+            <br>
             <p>${val.rockHistory}</p>
             <hr>
             `;
@@ -77,7 +78,7 @@ export let wsMyHeader ={
             <article class="blog-post" id="tablaData">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1W0YS64vF9qgMVLuN76aqg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <h2 class="blog-post-title">${p1.section2}</h2>
-                <p class="blog-post-meta">Un vistazo a las producciones de la banda</p>
+                <h6 class="blog-post-meta">Un vistazo a las producciones de la banda</h6>
 
                 <p>${p1.paragraph3}</p>
                 
@@ -100,31 +101,31 @@ export let wsMyHeader ={
                     <tr>
                     ${val.skillet.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
-                    <tr>
+                    <tr id="monochrome">
                     ${val.HeyYou.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
                     <tr>
                     ${val.invincible.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
-                    <tr>
+                    <tr id="monochrome">
                     ${val.AlienYouth.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
                     <tr>
                     ${val.collide.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
-                    <tr>
+                    <tr id="monochrome">
                     ${val.comatoes.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
                     <tr>
                     ${val.awake.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
-                    <tr>
+                    <tr id="monochrome">
                     ${val.rise.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
                     <tr>
                     ${val.unleashed.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
-                    <tr>
+                    <tr id="monochrome">
                     ${val.invincible.map((val2, id2)=>{return `<th>${val2.name}</th>`}).join("")}
                     </tr>
                     <tr>
@@ -146,7 +147,7 @@ export let wsMyHeader ={
                 return`
                 <article class="blog-post">
                     <h2 class="blog-post-title">${p1.title}</h2>
-                    <p class="blog-post-meta">${p1.subtitle}</p>
+                    <h6 class="blog-post-meta">${p1.subtitle}</h6>
                     <p>${p1.rocklive}</p>
 
                 <ul id="listFunFacts">
@@ -186,15 +187,15 @@ export let wsMyHeader ={
             },
             cards(p1){
                 return`
-                <div class="p-4 mb-3 bg-light rounded">
-                <h4 class="fst-italic">${p1.title}</h4>
+                <div class="p-4 mb-3  rounded" id="cardAside">
+                <h3 class="fst-italic">${p1.title}</h3>
                 <p class="mb-0">${p1.paragranph}</p>
                 </div>`
             },
             list(p1){
                 return`
-                    <div class="p-4">
-                    <h4 class="fst-italic">${p1.title}</h4>
+                    <div class="p-4" id="listAside">
+                    <h3 class="fst-italic">${p1.title}</h3>
                     <ol class="list-unstyled mb-0">
                       ${p1.link.map((val, id) => `<li><a href="${val.link}" target = "_blank">${val.name}</a></li>`).join("")}
                     </ol>
